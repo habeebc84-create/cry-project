@@ -19,3 +19,7 @@ Thumbs.db
 
 # Database
 *.db
+
+# Vercel
+.vercel/
+
