@@ -1,0 +1,1 @@
+FROM python:3.11-slim`n`nWORKDIR /app`n`nCOPY requirements.txt .`nRUN pip install --no-cache-dir -r requirements.txt`n`nCOPY app/ ./app/`nCOPY run_backend.py .`n`nEXPOSE 8000`nENV PORT=8000`n`nCMD ["python", "run_backend.py"]
